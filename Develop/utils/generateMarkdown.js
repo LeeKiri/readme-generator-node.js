@@ -17,16 +17,16 @@ function generateMarkdown(data) {
  ## Description \n
  ${data.Description}\n 
  
- 
+---
 | Table of Contents |
 |---|
-|Description |
-|Installation |
-|Usage |
-|Licence |
-|Contributing |
-|Tests |
-|Questions |\n
+| [Installation](#Installation) |
+| [Usage](#Usage) |
+| [Licence](#Licence) |
+| [Contributions](#Contributions) |
+| [Tests](#Tests) |
+| [Questions](#Questions) |
+---
 
 ## Installation \n
 ${data.Installation}\n
@@ -34,7 +34,7 @@ ${data.Installation}\n
 ${data.Usage}\n
 ## Licence \n
 ${data.Licence}\n
-## Contribution Guidelines \n
+## Contributions \n
 ${data.Contributing}\n
 ## Tests \n
 ${data.Tests}\n
