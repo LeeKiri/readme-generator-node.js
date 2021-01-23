@@ -21,8 +21,7 @@ function generateMarkdown(data) {
         "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
   }
 
-  return `# License \n
-  ${license}\n
+  return `# ${license}\n
   # ${data.Title}\n
  ## Description \n
  ${data.Description}\n 

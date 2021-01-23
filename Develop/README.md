@@ -1,12 +1,10 @@
-# License 
+# [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  # README Generator with Node.js
+  # jkhgf
 
  ## Description 
 
- This project prompts the user with questions then creates a professional README.md file based on their responses. 
+ kjhgf
  
  
 ---
@@ -14,7 +12,7 @@
 |---|
 | [Installation](#Installation) |
 | [Usage](#Usage) |
-| [Licence](#Licence) |
+| [License](#License) |
 | [Contributions](#Contributions) |
 | [Tests](#Tests) |
 | [Questions](#Questions) |
@@ -22,26 +20,26 @@
 
 ## Installation 
 
-npm install 
+kjhgfd
 
 ## Usage 
 
-Once you have installed the dependencies type `node index.js` into the comand line and answer the prompts.
+jhgfd
 
-## Licence 
+## License 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributions 
 
-We appreciate any community contributions to this project, whether in the form of issues or Pull Requests.
+jhgf
 
 ## Tests 
 
-none
+jhgf
 
 ## Questions
-* You can contact us via email 
+* You can contact us via kkj
 * Github Username - leekiri
 * Github Profile - https://github.com/LeeKiri
-* Email - leekiritempleton@gmail.com 
+* Email - jhgf 
