@@ -49,7 +49,7 @@ ${data.Contributions}\n
 ## Tests \n
 ${data.Tests}\n
 ## Questions
-* ${data.Question4}
+* You can contact us via ${data.Contact}
 * Github Username - ${data.githubUsername}
 * Github Profile - ${data.profileLink}
 * Email - ${data.Email} 

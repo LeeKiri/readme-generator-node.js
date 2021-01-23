@@ -54,8 +54,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "How can people reach you with questions?",
-    name: "Question4",
+    message: "How can people contact you?",
+    name: "Contact",
   },
 ];
 
