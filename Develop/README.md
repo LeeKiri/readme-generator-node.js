@@ -41,7 +41,7 @@ We appreciate any community contributions to this project, whether in the form o
 none
 
 ## Questions
-* email 
+* You can contact us via email 
 * Github Username - leekiri
 * Github Profile - https://github.com/LeeKiri
 * Email - leekiritempleton@gmail.com 
