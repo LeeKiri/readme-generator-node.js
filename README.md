@@ -38,6 +38,15 @@ We appreciate any community contributions to this project, whether in the form o
 
 none
 
+## Walkthrough Video 
+This video demonstrates the functionality of the readme generator. Including how to initialise the commands in yoour terminal, how to enter your responses to the prompts and a walkthrough of the readme once its successfully created. 
+
+https://drive.google.com/file/d/1hQCJjQLkicYBCQfYDcMpqpngSxGfs-Nl/view
+
+## Generated README File
+
+You can take a look at the generated readme file here
+
 ## Questions
 * You can contact us via email
 * Github Username - leekiri
