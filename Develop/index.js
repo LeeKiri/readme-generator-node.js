@@ -28,9 +28,18 @@ const questions = [
   },
   {
     type: "list",
-    choices: ["MIT", "GNU GPL v3", "Mozilla", "IBM"],
+    choices: [
+      "MIT",
+      "GNU GPL v3",
+      "Mozilla",
+      "IBM",
+      "The Apache License",
+      "BSD",
+      "EPL",
+      "No Licence",
+    ],
     message: "Please choose from the following licenses",
-    name: "License",
+    name: "license",
   },
   {
     type: "input",
@@ -62,7 +71,6 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const markdownContent = generateMarkdown(data);
-
   fs.writeFile(fileName, markdownContent, (err) => {
     if (err) throw err;
     console.log("success");
@@ -76,9 +84,9 @@ const init = () => {
       .get("https://api.github.com/users/" + data.githubUsername)
       .then((response) => {
         data.profileLink = response.data.html_url;
-        console.log("data from inquirer", data);
         writeToFile("README.md", data);
-      });
+      })
+      .catch((err) => console.log(err));
   });
 };
 

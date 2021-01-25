@@ -1,9 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  let license = "";
-  switch (data.License) {
+let license = "";
+const getLicense = (data) => {
+  switch (data.license) {
     case "MIT":
       license =
         "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -19,7 +17,27 @@ function generateMarkdown(data) {
     case "IBM":
       license =
         "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+      break;
+    case "The Apache License":
+      license =
+        "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case "BSD":
+      license =
+        "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+      break;
+    case "EPL":
+      license =
+      "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
+      break;
+    default:
+      license = "No License";
   }
+};
+
+// TODO: Create a function to generate markdown for README
+const generateMarkdown = (data) => {
+  getLicense(data);
 
   return `# ${license}\n
   # ${data.Title}\n
@@ -53,6 +71,6 @@ ${data.Tests}\n
 * Github Profile - ${data.profileLink}
 * Email - ${data.Email} 
 `;
-}
+};
 
 module.exports = generateMarkdown;
